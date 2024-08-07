@@ -10,7 +10,7 @@ import java.sql.SQLException;
 public class AutoQA {
     public static void main(String[] args) {
         String usuario = "root";
-        String password = "PONERCLAVE";
+        String password = "1234";
         String url = "jdbc:mysql://localhost:3306/crud";
         Connection connection;
         Statement statement;
