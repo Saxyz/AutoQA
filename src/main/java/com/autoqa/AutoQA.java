@@ -10,7 +10,7 @@ import java.sql.SQLException;
 public class AutoQA {
     public static void main(String[] args) {
         String usuario = "root";
-        String password = "0508133125lucastommy";
+        String password = "PONERCLAVE";
         String url = "jdbc:mysql://localhost:3306/crud";
         Connection connection;
         Statement statement;
@@ -38,7 +38,7 @@ public class AutoQA {
 
             //Borrar datos
             statement.execute("DELETE FROM USERS;");
-            
+
 
 
         } catch (SQLException e) {
